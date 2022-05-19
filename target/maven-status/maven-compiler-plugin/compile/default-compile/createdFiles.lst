@@ -1,0 +1,7 @@
+ru/netology/graphics/image/TextGraphicsConverterNew.class
+ru/netology/graphics/image/TextGraphicsConverter.class
+ru/netology/graphics/image/TextColorSchema.class
+ru/netology/graphics/image/BadImageSizeException.class
+ru/netology/graphics/image/TextColorSchemaNew.class
+ru/netology/graphics/server/GServer.class
+ru/netology/graphics/Main.class
