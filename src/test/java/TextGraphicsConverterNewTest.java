@@ -24,11 +24,11 @@ public class TextGraphicsConverterNewTest {
     }
 
     @Test
-    public void positiveTestCheckMaxRatio () throws BadImageSizeException {
+    public void positiveTestCheckMaxRatio () {
         converter.setMaxRatio(10);
         converter.setHeight(500);
         converter.setWidth(400);
-        converter.checkMaxRatio();
+        Assertions.assertDoesNotThrow(converter::checkMaxRatio);
     }
 
     @Test
